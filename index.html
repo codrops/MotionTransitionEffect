@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Motion Transition Effect | Demo 1 | Codrops</title>
+		<meta name="description" content="A speedy motion transition effect for an image slideshow." />
+		<meta name="keywords" content="transition, effect, motion, css, javascript, web development, demo" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading demo-1">
+		<main>
+			<div class="frame">
+				<div class="frame__title-wrap">
+					<h1 class="frame__title">Motion Transition Effect</h1>
+					<p class="frame__tagline">Inspired by <a href="https://dribbble.com/shots/4272534-Ping-Pong-Slow-Motion">Ping Pong Slow Motion</a></p>
+				</div>
+				<div class="frame__links">
+					<a href="https://tympanus.net/Tutorials/InteractiveRepulsionEffect/">Previous Demo</a>
+					<a href="https://tympanus.net/codrops/?p=36812">Article</a>
+				</div>
+				<a class="frame__github" href="https://github.com/codrops/MotionTransitionEffect/">GitHub</a>
+				<div class="frame__demos">
+					<a href="index.html" class="frame__demo">demo 1</a>
+					<a href="index2.html" class="frame__demo frame__demo--current">demo 2</a>
+				</div>
+			</div>
+			<div class="deco deco--bg"></div>
+			<div class="deco deco--shape deco--shape-hor deco--shape-1"></div>
+			<div class="deco deco--shape deco--shape-hor deco--shape-2"></div>
+			<div class="slideshow">
+				<div class="slide">
+					<div class="slide__image" style="background-image:url(img/1.jpg)"></div>
+					<h2 class="slide__title">Masupitami</h2>
+				</div>
+				<div class="slide">
+					<div class="slide__image slide__image--hidden" style="background-image:url(img/2.jpg)"></div>
+					<h2 class="slide__title slide__title--hidden">Waldorfian</h2>
+				</div>
+				<div class="slide">
+					<div class="slide__image slide__image--hidden" style="background-image:url(img/3.jpg)"></div>
+					<h2 class="slide__title slide__title--hidden">Hindsberg</h2>
+				</div>
+				<div class="slide">
+					<div class="slide__image slide__image--hidden" style="background-image:url(img/4.jpg)"></div>
+					<h2 class="slide__title slide__title--hidden">Kitschmas</h2>
+				</div>
+				<div class="slide">
+					<div class="slide__image slide__image--hidden" style="background-image:url(img/5.jpg)"></div>
+					<h2 class="slide__title slide__title--hidden">Friendlein</h2>
+				</div>
+				<nav class="nav">
+					<button class="nav__button nav__button--previous">Previous</button>
+					<button class="nav__button nav__button--next">Next</button>
+				</nav>
+			</div>
+		</main>
+		<script src="js/charming.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
