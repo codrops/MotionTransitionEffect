@@ -2,7 +2,7 @@
 
 A speedy motion transition effect for an image slideshow. Inspired by [Ping Pong Slow Motion](https://dribbble.com/shots/4272534-Ping-Pong-Slow-Motion).
 
-![Motion Transition Effect]()
+![Motion Transition Effect](https://tympanus.net/codrops/wp-content/uploads/2018/12/MotionTransition_featured.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=36812)
 
